@@ -39,6 +39,7 @@ function IndProj({projects}) {
             <td>{open ? <ProgressBar now={now} label={`${now}%`} /> : "Project Closed"}</td>          
            </tr>
         <MyVerticallyCenteredModal  
+        id={id}
         proj = {proj}  
         show={modalShow}
         onHide={() => setModalShow(false)}

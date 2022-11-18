@@ -8,13 +8,13 @@ import { useState } from 'react'
 
 function MyVerticallyCenteredModal(props) {
     
-    const { proj} = props;
-    let mapProjId = proj.map(proj => proj.project_id)
+    const { proj, id} = props;
+  //  let mapProjId = proj.map(proj => proj.project_id)
     const [formData, setFormData] = useState({
        hours: 1,
         description: '',
         employee_id: 1,
-        project_id: ""
+        project_id: id
     })
 
     const { hours, description, employee_id, project_id } = formData
@@ -34,7 +34,7 @@ function MyVerticallyCenteredModal(props) {
             hours,
             description,
             employee_id,
-            project_id: mapProjId[0]
+            project_id    //mapProjId[0]
             
         }
         console.log(task)

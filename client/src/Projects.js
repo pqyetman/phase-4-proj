@@ -8,6 +8,7 @@ function Projects() {
 
     const [projects, setProjects] = useState([])
   
+    
 
     useEffect(() => {
         fetch(`/projects`).then((r) => {

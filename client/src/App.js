@@ -13,7 +13,7 @@ import NavBar from "./NavBar";
 
 function App() {
 
-  const history = useHistory()
+
 
   const [currentUser, setCurrentUser] = useState(false)
 

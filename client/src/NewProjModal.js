@@ -20,7 +20,7 @@ function NewProjModal({ show, setShow, id, name }) {
         customer_id: id
     })
 
-    const { estimated_total_hours, description, customer_id, open } = formData
+    const { estimated_total_hours, description } = formData
 
     const handleChange = (e) => {
         console.log(e.target.value)

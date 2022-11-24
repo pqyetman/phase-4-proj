@@ -25,7 +25,7 @@ function NavBar({updateUser, currentUser}) {
         <div>
             <Navbar bg="dark" variant="dark">
                 <Container fluid>
-                    <Navbar.Brand href="/home">Projects</Navbar.Brand>
+                    <Navbar.Brand href="/r-projects">Projects</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav

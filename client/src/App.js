@@ -51,7 +51,7 @@ function App() {
         <Route exact path="/r-employees">
           <Employees />
         </Route>
-        <Route  exact path="/home" >
+        <Route  exact path="/r-projects" >
           <Home />
         </Route>
       </Switch>

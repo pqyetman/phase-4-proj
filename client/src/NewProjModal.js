@@ -54,7 +54,7 @@ function NewProjModal({ show, setShow, id, name }) {
                    res.json().then(project => {
                     
                       console.log(project)
-                      history.push(`/home`)
+                      history.push(`/r-projects`)
                    })
                } else {
                    res.json().then(json => alert(json.errors))

@@ -45,10 +45,10 @@ function App() {
         <Route exact path="/signup">
           <SignUp updateUser={updateUser}/>
         </Route>
-        <Route exact path="/customers">
+        <Route exact path="/r-customers">
           <Customers />
         </Route>
-        <Route exact path="/employees">
+        <Route exact path="/r-employees">
           <Employees />
         </Route>
         <Route  exact path="/home" >

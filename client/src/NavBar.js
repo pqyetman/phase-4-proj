@@ -33,8 +33,8 @@ function NavBar({updateUser, currentUser}) {
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
-                            <Nav.Link href= "/customers">Customers</Nav.Link>
-                            <Nav.Link href="/employees">Employees</Nav.Link>
+                            <Nav.Link href= "/r-customers">Customers</Nav.Link>
+                            <Nav.Link href="/r-employees">Employees</Nav.Link>
                             <Nav.Link eventKey="disabled" disabled >Calendar</Nav.Link>
                             <NavDropdown title="Create New" id="navbarScrollingDropdown">
                                 <NavDropdown.Item href="#action3">Customer</NavDropdown.Item>

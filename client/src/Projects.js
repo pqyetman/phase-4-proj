@@ -16,7 +16,7 @@ function Projects() {
               r.json().then((proj) => setProjects(proj));
             }
          else {
-            res.json().then(json => alert(json.errors))
+            r.json().then(json => alert(json.errors))
         }
         })
 

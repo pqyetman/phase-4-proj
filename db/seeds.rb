@@ -1,4 +1,4 @@
-=begin # require 'faker'
+# require 'faker'
 puts "🌱 Seeding spices..."
 
 # Seed your database here
@@ -37,7 +37,7 @@ end
         open: [true,false].sample,
         description: Faker::Job.key_skill ,
         estimated_total_hours: rand(50..200),
-        customer_id: rand(1..100)
+        customer_id: Customer.all.ids.sample
 
         )
 end
@@ -47,8 +47,8 @@ end
     Task.create(
         hours: rand(1..8),
         description: Faker::Hobby.activity,
-        employee_id: rand(1..10),
-        project_id: rand(1..300)      
+        employee_id: Employee.all.ids.sample,
+        project_id: Project.all.ids.sample     
     )
 
 end
@@ -57,4 +57,3 @@ end
 
 puts "✅ Done seeding!"
 
-=end

@@ -1,4 +1,4 @@
-require 'faker'
+=begin # require 'faker'
 puts "🌱 Seeding spices..."
 
 # Seed your database here
@@ -56,3 +56,5 @@ end
 
 
 puts "✅ Done seeding!"
+
+=end
